@@ -1,11 +1,11 @@
-About r-teamr
-=============
+About r-teamr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-teamr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/wwwjk366/teamr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-teamr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package of wrapper functions using R6 class to send requests to Microsoft 'Teams' <https://products.office.com/en-us/microsoft-teams/group-chat-software> through webhooks. When you need to share information or data from R to 'Teams', rather than copying/pasting, you can use this package to send well-formatted output from multiple R objects.
 
