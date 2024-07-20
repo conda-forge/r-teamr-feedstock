@@ -1,6 +1,5 @@
 {% set version = '0.0.1' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-teamr
@@ -13,8 +12,7 @@ source:
   sha256: 4213aebcfd803d4c6fd863c86822d55b91a329d9f9538e521909388a347ff605
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
